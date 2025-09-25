@@ -80,7 +80,7 @@ export default class Preload extends Phaser.Scene {
 			}
 		}
 
-		this.scene.start("Level");
+		this.scene.start('Level', { mapSize: 15 }); // 15x15 맵으로 시작
 	}
 
 	/* END-USER-CODE */
