@@ -70,7 +70,7 @@ export default class MainMenu extends Phaser.Scene {
       this.scene.start("Level", { difficulty: "hard" })
     );
 
-    // 하단 아이콘 (세 개)
+    // 하단 아이콘
     const iconsY = height * 0.9;
     const iconSize = 160;
     const iconSpacing = 300;

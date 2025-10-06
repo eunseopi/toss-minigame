@@ -44,7 +44,7 @@ export default class SettingsScene extends Phaser.Scene {
 
     // ---- 완료 버튼 ----
     const doneBtn = this.add
-      .rectangle(width / 2, height * 0.65, 200, 100, 0xdddddd)
+      .rectangle(width / 2, height * 0.65, 20, 100, 0xdddddd)
       .setOrigin(0.5)
       .setInteractive({ useHandCursor: true })
       .on("pointerdown", () => {
@@ -60,7 +60,6 @@ export default class SettingsScene extends Phaser.Scene {
       .setOrigin(0.5);
   }
 
-  // 토글 스위치
   createRoundedToggle(
     centerX: number,
     y: number,

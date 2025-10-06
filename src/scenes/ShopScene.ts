@@ -102,7 +102,7 @@ export default class ShopScene extends Phaser.Scene {
       )
       .setOrigin(0.5);
 
-    // 뒤로가기 버튼
+    // 뒤로가기
     const backBtn = this.add
       .text(width / 2, height * 0.93, "← 뒤로가기", {
         fontSize: "48px",

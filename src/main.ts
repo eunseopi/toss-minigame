@@ -35,7 +35,6 @@ window.addEventListener("load", function () {
   } else {
     const windowHeight: number = window.innerHeight;
 
-    // 데스크탑은 9:16 비율 유지
     const width: number = Math.floor((windowHeight * 9) / 16);
     const height: number = windowHeight;
 
