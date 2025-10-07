@@ -1,0 +1,56 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/mine/blockBreakSound.ogg"
+                ],
+                "type": "audio",
+                "key": "blockBreakSound"
+            },
+            {
+                "url": "assets/mine/blockNormal1.png",
+                "type": "image",
+                "key": "blockNormal1"
+            },
+            {
+                "url": "assets/mine/blockNormal2.png",
+                "type": "image",
+                "key": "blockNormal2"
+            },
+            {
+                "url": "assets/mine/blockNormal3.png",
+                "type": "image",
+                "key": "blockNormal3"
+            },
+            {
+                "url": "assets/mine/blockStone1.png",
+                "type": "image",
+                "key": "blockStone1"
+            },
+            {
+                "url": "assets/mine/blockStone2.png",
+                "type": "image",
+                "key": "blockStone2"
+            },
+            {
+                "url": "assets/mine/blockStone3.png",
+                "type": "image",
+                "key": "blockStone3"
+            },
+            {
+                "url": "assets/mine/pickaxe.png",
+                "type": "image",
+                "key": "pickaxe"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}
