@@ -5,6 +5,7 @@ import MainMenu from "./scenes/MainMenu";
 import ShopScene from "./scenes/ShopScene";
 import SettingsScene from "./scenes/SettingsScene";
 import Level from "./scenes/Level";
+import GameOver from "./scenes/GameOver";
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -15,7 +16,7 @@ const config: Phaser.Types.Core.GameConfig = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
-  scene: [Boot, Preload, MainMenu, Level, ShopScene, SettingsScene],
+  scene: [Boot, Preload, MainMenu, Level, ShopScene, SettingsScene, GameOver],
 };
 
 export default config;
